@@ -1,11 +1,114 @@
-.contact{
-    border: 2px solid red;  
+.contact {
+    background-color: #0044B7;
     display: flex;
     padding: 0;
+
 }
-.contact_map{
+.contact_titel{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact_conteiner {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.contact_map {
     border-radius: 0px;
 }
-.contact_map:hover{
+
+.contact_map:hover {
     transform: scale(1);
+}
+
+input[type="text"] {
+    border: white 2px solid;
+    background-color: #0044B7;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+.contact_user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_name {
+    width: 100%;
+}
+
+.input_mobile {
+    width: 45%;
+}
+
+.input_email {
+    width: 45%;
+}
+
+.input_message {
+    font-size: 19px;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: white 2px solid;
+    background-color: #0044B7;
+    color: white;
+}
+
+.contact_message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #F6C000;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+p {
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.contact_send_message {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: white;
+}
+
+.contact_social {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid white;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%
+}
+
+.img_social {
+    margin: 0;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.c{
+    color: #FFC700;
 }

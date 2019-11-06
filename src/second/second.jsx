@@ -6,7 +6,7 @@ class Second extends Component {
         return (
             <div className={style.sublime__contener}>
                 <section className={style.sublime__contener__titel_text}>
-                    <h3 className={style.titel_text}><span className={style.titel_text_span}>A</span>bout</h3>
+                    <h3 name="About" className={style.titel_text}><span className={style.titel_text_span}>A</span>bout</h3>
                     <h1 className={style.titel_text}><span className={style.titel_text_span}>S</span>ublime</h1>
                 </section>
 
