@@ -1,0 +1,80 @@
+.stategic__content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stategic__content_titel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.titel_span {
+    font-size: 70px;
+    color: #FFC700;
+}
+
+.titel_spansecond {
+    font-size: 70px;
+}
+
+h6 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Process__content,
+.Process__content__footer {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.Process__titel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.content__footer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.Process__content__midle {
+    display: flex;
+    flex-direction: reverse;
+    margin: auto;
+    width: 60%;
+
+
+}
+
+.Process__content__midle_conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content__midle__Up,
+.content__footer__Up,
+.Process__titel_Up {
+    font-size: 70px;
+}

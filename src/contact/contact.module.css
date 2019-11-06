@@ -1,0 +1,11 @@
+.contact{
+    border: 2px solid red;  
+    display: flex;
+    padding: 0;
+}
+.contact_map{
+    border-radius: 0px;
+}
+.contact_map:hover{
+    transform: scale(1);
+}

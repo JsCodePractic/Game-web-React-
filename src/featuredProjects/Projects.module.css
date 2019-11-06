@@ -1,0 +1,52 @@
+.project__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__titel {
+    justify-content: start;
+    display: flex;
+    margin-left: 40px;
+}
+
+.titel__F {
+    font-size: 90px;
+    color: #FFC700;
+}
+
+.titel__P {
+    font-size: 90px;
+}
+
+.content__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondA {
+    color: black;
+    font-size: 15px;
+}
+
+.secondA:hover {
+    color: black;
+}
+.content__image{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    
+}
+img{
+    border-radius: 20px;
+    margin: 10px;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px 0 rgba(4,4,4,4.5)
+}

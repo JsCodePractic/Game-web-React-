@@ -1,0 +1,18 @@
+.navigation__menu, .navigation__menu__list {
+ display: flex; 
+ }
+a {
+  margin: 11px;
+  font-size: 25px;
+  color: #FFC700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline yellow;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }

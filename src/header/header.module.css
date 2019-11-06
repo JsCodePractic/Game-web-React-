@@ -1,0 +1,22 @@
+.header {
+    min-width: 1700px;
+    min-height: 1000px;
+    display: flex;    
+    background-image: url(https://images6.alphacoders.com/344/344881.jpg)
+}
+
+.header__content__titel__span {
+    color: #FFC700;
+
+}
+.header__content{    
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header__content__titel {
+    font-size: 50px;
+    color: white;
+
+}
+
