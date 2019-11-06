@@ -33,7 +33,7 @@ class Process extends Component {
                 </section>
                 <section className={style.Process__content}>
                     <div className={style.Process__image}>
-                        <img src={img1} alt="" />
+                        <img className={style.img_project} src={img1} alt="" />
                     </div>
                     <div className={style.Process__titel}>
                         <h1 className={style.hFs}><span className={style.Process__titel_Up}>O</span>ur <span className={style.Process__titel_Up}>P</span>rocess</h1>
@@ -62,13 +62,13 @@ class Process extends Component {
                         </div>
                     </div>
                     <div>
-                        <img src={img2} alt="" />
+                        <img className={style.img_project} src={img2} alt="" />
                     </div>
                 </section>
                 <section>
                     <div className={style.Process__content__footer_conteiner}>
                         <div className={style.Process__content__footer}>
-                            <img src={img3} alt="" />
+                            <img className={style.img_project} src={img3} alt="" />
                             <div className={style.content__footer}>
                                 <h2><span className={style.content__footer__Up}>O</span>utcome</h2>
                                 <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.

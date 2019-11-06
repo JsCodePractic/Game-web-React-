@@ -78,3 +78,8 @@ h6 {
 .Process__titel_Up {
     font-size: 70px;
 }
+.img_project{ box-shadow: 0 10px 10px 0 rgba(4,4,4,4.5);
+    transform: scale(1);
+    margin: 10px;
+    border-radius:50px ;
+}

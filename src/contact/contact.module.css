@@ -108,6 +108,11 @@ textarea::-webkit-input-placeholder {
     cursor: pointer;
     width: 25px;
     height: 25px;
+    transition: 1s;
+    border-radius:50px ;
+}
+.img_social:hover{
+    transform: scale(1.2);
 }
 .c{
     color: #FFC700;

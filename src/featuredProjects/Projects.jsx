@@ -36,14 +36,14 @@ class Projects extends Component {
                 </section>
                 <section>
                     <div className={style.content__image}>
-                        <img src={img1}></img>
-                        <img src={img2}></img>
-                        <img src={img3}></img>
-                        <img src={img4}></img>
-                        <img src={img5}></img>
-                        <img src={img6}></img>
-                        <img src={img7}></img>
-                        <img src={img9}></img>
+                        <img className={style.project_img} src={img1}></img>
+                        <img className={style.project_img} src={img2}></img>
+                        <img className={style.project_img} src={img3}></img>
+                        <img className={style.project_img} src={img4}></img>
+                        <img className={style.project_img} src={img5}></img>
+                        <img className={style.project_img} src={img6}></img>
+                        <img className={style.project_img} src={img7}></img>
+                        <img className={style.project_img} src={img9}></img>
                     </div>
                 </section>
             </div>
